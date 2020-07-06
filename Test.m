@@ -1,6 +1,6 @@
 clear all
 clc
-[id1,id2,nx,ny,nz,fn] = textread('normals.txt','%f %f %f %f %f %f');
+[id1,id2,nx,ny,nz,fn] = textread('normals1.txt','%f %f %f %f %f %f');
 c=zeros(2*length(nx),3);
 for i=1:length(nx)
     c(i,1)=nx(i);
