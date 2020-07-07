@@ -4,7 +4,7 @@ This Matlab code allows you to visualize the spherical histograms of the vector 
 Bin selection is very important in such a visualisation. 
 
 The most traditional lattitude and longitude division of a unit sphere, generate bins with equal spacing of angle in both azimithul and polar directions. 
-Such a bin division is not appropriate, because each bin has different area. Example: large bin areas at the equator and very samll bin areas at the poles.
+Such a bin division is not appropriate, because each bin has different area. **Example**:large bin areas at the equator and very samll bin areas at the poles.
 
 To understand the isotropy in the vector distribution, it is important for each bin to have equal area. Thus the probability for a vector to fall in any bin is the same.
 
