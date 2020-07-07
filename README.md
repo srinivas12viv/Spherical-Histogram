@@ -18,7 +18,7 @@ Depending on the No. of longitudnal divisions (Long_div), the azimithul directio
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;\theta_i=cos^{-1}(1-\frac{2i}{Lat\_div})" />
 
-The file *'normals.txt'* in this repository contains data of several vectors where each row is representing a vector with coordinates (x,y,z). The distribution of this vector data, with Long_div=36 and Lat_div=18 is as follows,
+The file *'normals.txt'* in this repository contains data of several vectors where each row represents a vector with coordinates (x,y,z). The distribution of this vector data, with Long_div=36 and Lat_div=18 is as follows,
 
 <p align="center">
   <img width="325" height="300" src="/SphericalHistogram.png">
