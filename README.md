@@ -14,7 +14,7 @@ In this code, a modified version of latitude/longitude division of sphere is cod
 
 User has to choose number of logitudnal divisions and latitudnal divisions they wish to distribute their vector data. 
 
-Depending on the No. of longitudnal divisions (Long_div), the azimithul direction is equally spaced. **Example:** 36 longitudnal divisions, meaning each bin in azimithul direction is seperated by 10 degrees. Whereas in the polar direction depending on the number of latitudnal divisions, the polar angles                                <img src="https://latex.codecogs.com/svg.latex?\large&space;[0,\theta_1.....,\theta_i,.......\pi] "/> are calculated as follows:
+Depending on the No. of longitudnal divisions (Long_div), the azimithul direction is equally spaced. **Example:** 36 longitudnal divisions, meaning each bin in azimithul direction is seperated by 10 degrees. Whereas in the polar direction depending on the No. of latitudnal divisions (Lat_div), the polar angles                                <img src="https://latex.codecogs.com/svg.latex?\large&space;[0,\theta_1.....,\theta_i,.......\pi] "/> are calculated as follows:
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;\theta_i=cos^{-1}(1-\frac{2i}{Lat\_div})" />
 
