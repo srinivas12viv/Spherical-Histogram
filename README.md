@@ -15,3 +15,5 @@ User has to choose number of logitudnal divisions and latitudnal divisions they 
 Depending on the No. of longitudnal divisions (Long_div), the azimithul direction is equally spaced. Ex: 36 longitudnal divisions, meaning each bin in azimithul direction is seperated by 10 degrees. Whereas in the polar direction depending on the number of latitudnal divisions, the polar angles                                <img src="https://latex.codecogs.com/svg.latex?\large&space;[0,\theta_1.....,\theta_i,.......\pi] "/> are calculated as follows:
 
 <img src="https://latex.codecogs.com/svg.latex?\large&space;\theta_i=cos^{-1}(1-\frac{2i}{Lat\_div})" />
+
+The file'normals.txt' in this repository contains data of several vectors where each row representing a vector (x,y,z). The distribution using this code can be shown as below:
