@@ -40,6 +40,6 @@ The surface area of each bin= <img src="https://latex.codecogs.com/svg.latex?\la
 
 The area from the pole of a longitudnal division till a polar angle <img src="https://latex.codecogs.com/svg.latex?\large&space;\theta"/> can be given as: <img src="https://latex.codecogs.com/svg.latex?\large&space;\int_0^{\theta}\frac{2\pi}{(Long\_div)}sin{\theta}d{\theta}"/>
 
-Suppose the angle <img src="https://latex.codecogs.com/svg.latex?\large&space;\theta_i"/> be the polar angle of the *i<sup>th</sup>* latitudnal division, the corresponding area from the pole is *i* times the bin area, i.e., <img src="https://latex.codecogs.com/svg.latex?\large&space;\frac{4\pi*i}{(Long\_div)(Lat\_div)}"/> which is also equal to <img src="https://latex.codecogs.com/svg.latex?\large&space;\int_0^{\theta_i}\frac{2\pi}{(Long\_div)}sin{\theta}d{\theta}"/>
+Suppose the angle <img src="https://latex.codecogs.com/svg.latex?\large&space;\theta_i"/> be the polar angle of the *i<sup>th</sup>* latitudnal division from the pole, the corresponding area from the pole is *i* times the bin area, i.e., <img src="https://latex.codecogs.com/svg.latex?\large&space;\frac{4\pi*i}{(Long\_div)(Lat\_div)}"/> which is also equal to <img src="https://latex.codecogs.com/svg.latex?\large&space;\int_0^{\theta_i}\frac{2\pi}{(Long\_div)}sin{\theta}d{\theta}"/>
 
 Integrating and rearranging terms give, the polar angle <img src="https://latex.codecogs.com/svg.latex?\large&space;\theta_i=cos^{-1}(1-\frac{2i}{Lat\_div})" />
